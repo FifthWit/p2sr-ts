@@ -1,0 +1,12 @@
+{
+  "name": "@fifth/p2sr-ts",
+  "version": "0.1.0",
+  "license": "AGPL-3.0-or-later",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno run --watch --allow-net main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
